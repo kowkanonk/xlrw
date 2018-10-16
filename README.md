@@ -1,2 +1,5 @@
 # xlrw
-Reading excel format for report generating.
+generate reports by using existing format.
+
+# OCT 16, 2018
+currently used for reconciliation report generating.
