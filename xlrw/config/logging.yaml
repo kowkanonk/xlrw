@@ -1,0 +1,17 @@
+version: 1
+
+formatters:
+  sample:
+    format: '%(asctime)s %(filename)s - %(funcName)s %(levelname)s: %(message)s'
+    
+handlers:
+  file:
+    class: logging.FileHandler
+    level: INFO
+    formatter: sample
+    filename: Notebooks/logs/sample_20181015.log
+
+loggers:
+  sample_logger:
+    level: INFO
+    handlers: [file]
